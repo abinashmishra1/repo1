@@ -1,0 +1,15 @@
+body{
+	background-color: rgb(64, 148, 139 );
+	text-align:center;
+}
+h1{
+	color: rgb(8, 5, 66 );
+	text-align: center;
+	text-decoration-style: bold;
+}
+img{
+    border: 10px groove green;
+    width:25%;
+    height:250px;
+
+}
