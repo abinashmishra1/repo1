@@ -12,10 +12,10 @@ from datetime import datetime
 def template_view(request):
     dt=datetime.now()
     my_dict={'date':dt}
-    return render(request,'testapp/results.html',context=my_dict)
+    return render(request,'appname/results.html',context=my_dict)
 def date_time_view(request):
     date=datetime.now()
-    h=int(date.strftime('%H'))
+    h=int(date.strftime('%H:%M'))
     if h<12:
         msg="Hello! Good Morning."
     elif h>=12 and h<=16:
